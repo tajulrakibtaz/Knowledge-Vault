@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    max-width: 1360px;
+    margin: 16px 120px;
+}
+nav .list{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    align-items: center;
+    
+    
+}
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+.btn{
+    color:#ffffff;
+    border-radius: 4px;
+    padding: 12px 16px ;
+    border: none;
+    background-color: #30B868;
+    font-weight: 500;
+    font-size: 16px;
+}
+.banner .icon{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 1000px;
+    background-color: #ffffff;
+    color: #30B868;
+}
+.banner{
+    background-image: url("../assets/hero-bg.png");
+    max-width: 1600px;
+    height: 674px;
+   
+    background-repeat: no-repeat;
+}
+.banner .main-asses{
+    max-width: 1360px;
+}
+.first{
+    color:#ffffff;
+}
+.second{
+    color: #30B868;
+}
+.para {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 16px 295px 32px 295px;
+    text-align: center;
+
+}
+.trans-btn{
+    color:#ffffff;
+    border-radius: 4px;
+    padding: 12px 16px ;
+     font-weight: 500;
+    font-size: 16px;
+    background:transparent;
+    border: 1px solid white;
+}
+.main-asses{
+    align-items: center;
+    text-align: center;
+    padding: 70px 120px 134px 120px;
+
+}
+.banner-info{
+    font-style: Bold;
+font-size: 72px;
+font-weight: 700;
+line-height: 84px;
+}
+.note{
+    margin: 0 120px 44px 120px;
+    text-align: center;
+}
+.note .section-head {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 78px;
+    color: #001931;
+}
+
+.note .header-para,.header-para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin: 16px 0 0 0;
+}
+.motivation-card{
+    display: flex;
+    margin-left:120px;
+    margin-right: 120px; 
+    gap: 24px;
+    text-align: center;
+}
+.card-info{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
+}
+.motication-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 78px;
+    color: #001931;
+}
+.motivation-logo{
+   width: 60px;
+   height: 60px;
+   background: rgba(249, 85, 85, 1);
+   align-items: center;
+   justify-content: center;
+   border-radius:100px ;
+   margin: 0 107px  16px 107px;
+}
+.loto-logo{
+    padding: 2.5px;
+  margin: 14.36px 14.17px 13.64px 13.83px;
+}
+.card-info{
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 24px;
+}
+.solution-part{
+    padding: 120px;
+}
+.picture-big{
+    border-radius: 12px;
+    border: 0;
+}
+.the-solution{
+    margin: 120px 0 60px 120px;
+}
+.middle-section{
+    display: flex;
+    justify-content: space-between;
+}
+.starting{
+    font-size: 16px;
+    font-weight: 150;
+    line-height: 20px;
+    align-items: left;
+}
+.check-list{
+    display: flex;
+    gap: 6px;
+}
+.power-list {
+    gap: 0;
+}
