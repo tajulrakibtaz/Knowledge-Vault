@@ -32,6 +32,7 @@ nav a {
     background-color: #30B868;
     font-weight: 500;
     font-size: 16px;
+    margin-bottom: 16px;
 }
 .banner .icon{
     padding: 8px 12px;
@@ -188,4 +189,79 @@ margin: 16px auto;
     font-size: 16px;
 font-weight: 500;
 line-height: 20px;
+}
+.extra{
+    padding: 2px 120px 120px 120px;
+    text-align: center;
+}
+.extra .extra-section{
+    border-radius: 12px;
+    padding: 80px 40px;
+    background-color: rgba(247, 246, 242, 1);
+}
+.extra .extra-section .extra-title{
+    color: 001931;
+    font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+margin-bottom: 16px;
+}
+.extra .extra-section .extra-paragraph{
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #627382;
+margin-bottom: 24px;
+}
+.extra .extra-section .footer-para {
+    font-size: 16px;
+font-weight: 400;
+color: #627382;
+line-height: 20px;
+}
+footer .footer-nav-list{
+ display: flex;
+    justify-content: space-between;
+    align-items: left;
+    width: 85%;
+    max-width: 1360px;
+
+
+
+}
+#foot{
+    padding: 120px 120px 30px 120px;
+    background-color: rgba(0, 25, 49, 1);
+}
+footer .footer-navi{
+    width: 85%;
+max-width: 1360px;
+
+
+}
+.footer-line {
+    border: none;
+    height: 1px;
+    background-color: rgba(229, 231, 235, 1);
+    margin: 16px 0;
+
+}
+.real-footer{
+    text-align: center;
+}
+.footer-nav-list , .social-list , .s-list{
+    text-decoration: none;
+    list-style: none;
+}
+.social-wri{
+   font-size: 20px;
+font-weight: 500;
+color: rgba(255, 255, 255, 1);
+line-height: 28px;
+}
+.real-footer p {
+    font-size: 20px;
+font-weight: 500;
+color: rgba(255, 255, 255, 1);
+line-height: 28px;
 }
