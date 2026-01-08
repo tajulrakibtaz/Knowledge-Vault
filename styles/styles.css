@@ -156,16 +156,36 @@ line-height: 84px;
     display: flex;
     justify-content: space-between;
 }
-.starting{
+/* .starting {
     font-size: 16px;
     font-weight: 150;
     line-height: 20px;
-    align-items: left;
-}
+    align-items: left; */
+
 .check-list{
     display: flex;
     gap: 6px;
 }
-.power-list {
-    gap: 0;
+.power-list li {
+    
+    margin-top: 40px;
+    margin-bottom: 16px
+}
+.starting{
+    font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+color: #30B868;
+}
+.solution-text{
+    font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+margin: 16px auto;
+
+}
+.Capture{
+    font-size: 16px;
+font-weight: 500;
+line-height: 20px;
 }
