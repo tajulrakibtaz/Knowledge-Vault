@@ -265,3 +265,18 @@ font-weight: 500;
 color: rgba(255, 255, 255, 1);
 line-height: 28px;
 }
+.s-list .imon {
+    max-width: 20px;
+    
+} 
+.s-list{
+    display: flex;
+    gap:5px;
+    text-decoration: none;
+    list-style: none;
+}
+.check-pic{
+    max-width: 20px;
+    max-height: 20px;
+    
+}
