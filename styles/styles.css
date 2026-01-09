@@ -58,8 +58,9 @@ nav a {
     display: inline-flex;
      gap: 10px;
 }
-.icon :hover {
-    background-color: yellowgreen;
+.clr-icon :hover {
+    background-color: black;
+
 
 }
 .ring {
@@ -121,6 +122,8 @@ nav a {
     font-size: 16px;
     background:transparent;
     border: 1px solid white;
+    
+    max-width: 164px;
 }
 
 .trans-btn:hover {
@@ -473,24 +476,33 @@ align-items: center;
     margin: 0 auto 16px;
 }
 
-.aro-btn{
-    color:#ffffff;
-    border-radius: 4px;
-    padding: 12px 16px ;
-    border: none;
-    background-color: #30B868;
-    font-weight: 500;
-    font-size: 16px;
-    display: flex;
-    margin-bottom: 16px;
-    text-align: center;
-}
+
 .two-btn{
     display: flex;
  text-align: center; 
- justify-content: center;
+ justify-content:center;
+ 
  gap: 20px;
 }
+
+.aro-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin: 0 auto;        
+    
+    padding: 14px 28px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+    
+
+
 footer .aro-btn{
     justify-content: center;
     align-items: center;
@@ -517,3 +529,130 @@ footer .aro-btn{
 .aro-btn:hover {
     background: #000;
 }
+
+
+.footer-navi {
+    margin: 0 0;
+}
+.social-list ,social-wri ,imon {
+    align-items: right;
+}
+#foot{
+    margin: 0;
+}
+.footer-nav-list{
+    width: 85%;
+    max-width: 1160px;
+
+
+}
+.footer-navi {
+    margin: 0 auto;
+}
+
+.last-standing{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    max-width: 1160px;
+    list-style: none;
+}
+.imon{
+    max-width: 20px;
+    max-height:20px ;
+    list-style: none;
+}
+.two-btn {
+    display: flex;
+    align-items: center;
+    gap: 16px; /* space between buttons */
+}
+
+.aro-btn,.trans-btn
+ {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.two-btn {
+    display: flex;
+    gap: 16px;
+}
+
+.aro-btn,
+.trans-btn {
+    width: 260px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.aro-btn img,
+.trans-btn img {
+    width: 26px;
+    height: 26px;
+}
+
+.aro-btn p,
+.trans-btn p {
+    margin: 0;
+}
+
+
+.change-style{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+.change-style2{
+    list-style: none;
+}
+.play-trans{
+ max-width: 40px;
+    max-height:40px ;
+}
+.btn-playing{
+    display: flex;
+  
+}
+.last-both-button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.last-both-button1{
+    display: flex;
+    gap: 10px;
+    padding: 16px;
+    font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+background-color: #30B868;
+color: #FFFFFF;
+border: 0;
+border-radius: 5px;
+}
+.last-both-button2{
+    display: flex;
+    gap: 7px;
+     font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+    padding: 16px;
+    border : 1px solid white;
+color: #FFFFFF;
+border-radius: 5px;
+background-color: transparent;
+
+
+}
+
+
